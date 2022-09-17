@@ -10,7 +10,7 @@ locale                   : "en-US"
 title                    : "Rohit Raju Madke"
 title_separator          : "-"
 name                     : &name "Rohit Raju Madke"
-description              : &description "Researcher at Indian Institute of Technology Roorkee"
+description              : &description "Senior Researcher at Indian Institute of Technology Roorkee, India"
 url                      : https://rohitmadke.github.io/ # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "rohitmadke/rohitmadke.github.io"
@@ -85,9 +85,9 @@ author:
   bio              : "Researcher at Indian Institute of Technology Roorkee"
   location         : "Indian Institute of Technology Roorkee"
   employer         :
-  pubmed           : # "https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
+  pubmed           : "https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
   googlescholar    : "https://scholar.google.com/citations?user=QmkU4OgAAAAJ&hl=en"
-  email            :
+  email            : "rvmadkey@gmail.com"
   researchgate     :  "https://www.researchgate.net/profile/Rohit-Madke" # example: "https://www.researchgate.net/profile/yourprofile"
   uri              :
   bitbucket        :
@@ -96,13 +96,13 @@ author:
   flickr           :
   facebook         :
   foursquare       :
-  github           : "https://github.com/rohitmadke"
+  github           : "rohitmadke.github.io"
   google_plus      :
   keybase          :
   instagram        :
   impactstory      : #"https://profiles.impactstory.org/u/xxxx-xxxx-xxxx-xxxx"
   lastfm           :
-  linkedin         :
+  linkedin         :"https://www.linkedin.com/in/rohit-raju-madke-phd-a1aa4251/"
   orcid            : #"http://orcid.org/yourorcidurl"
   pinterest        :
   soundcloud       :
