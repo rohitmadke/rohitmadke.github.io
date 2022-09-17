@@ -85,7 +85,7 @@ author:
   bio              : "Researcher at Indian Institute of Technology Roorkee"
   location         : "Indian Institute of Technology Roorkee"
   employer         :
-  pubmed           : "https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
+  pubmed           : # "https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
   googlescholar    : "https://scholar.google.com/citations?user=QmkU4OgAAAAJ&hl=en"
   email            :
   researchgate     :  "https://www.researchgate.net/profile/Rohit-Madke" # example: "https://www.researchgate.net/profile/yourprofile"
