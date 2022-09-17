@@ -10,6 +10,4 @@ redirect_from:
 
 This is Rohit Raju Madke.
 
-A data-driven personal website
-======
 
