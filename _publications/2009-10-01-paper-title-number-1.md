@@ -1,7 +1,7 @@
 ---
 title: "Anti-impact behavior of auxetic sandwich structure with braided face sheets and 3D re-entrant cores"
 collection: publications
-permalink: /publication/2009-10-01-paper-title-number-1
+permalink: https://www.sciencedirect.com/science/article/pii/S0263822319338875?via%3Dihub
 excerpt: 'The effectiveness of sandwich structure with auxetic 3D re-entrant lattice core and semi-auxetic braided composite face sheets subjected to high-velocity impact have been investigated'
 venue: 'Composite Structures'
 paperurl: 'https://doi.org/10.1016/j.compstruct.2019.111838'
