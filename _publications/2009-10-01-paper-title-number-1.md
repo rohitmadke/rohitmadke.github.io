@@ -7,8 +7,8 @@ venue: 'Composite Structures'
 paperurl: 'https://doi.org/10.1016/j.compstruct.2019.111838'
 citation: 'R. R. Madke and R. Chowdhury, “Anti-impact behavior of auxetic sandwich structure with braided face sheets and 3D re-entrant cores,” Compos Struct, vol. 236, 2020, doi: 10.1016/j.compstruct.2019.111838.'
 ---
-This paper is about the number 1. The number 2 is left for future work.
+This article shows that appropriate microstructural and architectural design can tailor the intrinsic properties of the auxetic sandwich structure leading to excellent energy absorption with low relative density. 
 
-[Download paper here](http://academicpages.github.io/files/paper1.pdf)
+[Download paper here](https://doi.org/10.1016/j.compstruct.2019.111838)
 
-Recommended citation: Your Name, You. (2009). "Paper Title Number 1." <i>Journal 1</i>. 1(1).
+Recommended citation: R. R. Madke and R. Chowdhury, “Anti-impact behavior of auxetic sandwich structure with braided face sheets and 3D re-entrant cores,” Compos Struct, vol. 236, 2020, doi: 10.1016/j.compstruct.2019.111838.
