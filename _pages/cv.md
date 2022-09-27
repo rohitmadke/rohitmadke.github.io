@@ -11,7 +11,7 @@ redirect_from:
 
 Education
 ======
-* B.S. in GitHub, GitHub University, 2012
+* Bachelor of Engineering (B.E.) in Civil Engineering, Yeshwantrao Chavan College of Engineering (YCCE), Nagpur University, India, 2011
 * M.S. in Jekyll, GitHub University, 2014
 * Ph.D in Version Control Theory, GitHub University, 2018 (expected)
 
