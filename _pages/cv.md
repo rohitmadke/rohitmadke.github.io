@@ -19,13 +19,20 @@ Work experience
 ======
 * Senior Research Fellow [10/11/2020 – Present]
   * Indian Institute of Technology Roorkee (India)
-  * Duties included: Design and analysis of a heat-resistant meta-sandwich structure utilizing auxetic metamaterials and composites for the project titled “Fracture and fatigue analysis of auxetic composite” funded by the Indian Space Research Organisation (ISRO) - Government of India. Fracture analyses are performed using XFEM with ABAQUS and phase-field with COMSOL Multiphysics
-  * Supervisor: Prof. Anupam Chakrabarti (PI) and Prof. Rajib Chowdhury (Co-PI)
+  * Duties included: Design and analysis of a heat-resistant meta-sandwich structure utilizing auxetic metamaterials and composites for the project titled “Fracture and fatigue analysis of auxetic composite” funded by the Indian Space Research Organisation (ISRO) - Government of India. Fracture analyses are performed using XFEM with ABAQUS and phase-field with COMSOL Multiphysics.
+  * Principal Investigator: Prof. Anupam Chakrabarti (PI) and Prof. Rajib Chowdhury (Co-PI)
 
-* Fall 2015: Research Assistant
-  * Github University
-  * Duties included: Merging pull requests
-  * Supervisor: Professor Hub
+* Research Associate [13/01/2020 – 09/11/2020]
+  * Indian Institute of Technology Roorkee (India)
+  * Duties included: Research position in a Consultancy Project CED-6640/2017-18 in the Indian Institute of Technology Roorkee, Civil Engineering Department, funded by Central Public Works Department (CPWD), Jalandhar, Government of India. The scope of work comprised structural analysis, design, and proof checking of engineered structures using CSI ETabs and SAFE, Bentley Staad-Pro, Microsoft Excel, and Autodesk Autocad.
+  * Principal Investigator: Prof. Rajib Chowdhury (Co-PI)
+
+* Project Engineer (Civil) [04/10/2011 – 07/04/2012]
+  * Indian Institute of Technology Roorkee (India)
+  * Duties included: Structural analysis and design of intake well using Microsoft Excel and Bentley® Staad-Pro along with estimating and costing thermal power plant water infrastructure.
+  * CEO: Er. Nitin Jog and Er. S. Deshmukh
+
+
   
 Skills
 ======
