@@ -32,16 +32,15 @@ Work experience
   * Duties included: Structural analysis and design of intake well using Microsoft Excel and Bentley® Staad-Pro along with estimating and costing thermal power plant water infrastructure.
   * CEO: Er. Nitin Jog and Er. S. Deshmukh
 
-
   
 Skills
 ======
-* Skill 1
-* Skill 2
-  * Sub-skill 2.1
-  * Sub-skill 2.2
-  * Sub-skill 2.3
-* Skill 3
+* ANSYS Mechanical
+* ABAQUS with UMAT subroutines
+* COMSOL Multiphysics
+* MATLAB
+* TexGen
+* E-xstream Digimat (MSC)
 
 Publications
 ======
