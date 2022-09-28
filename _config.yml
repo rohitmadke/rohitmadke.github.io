@@ -227,6 +227,15 @@ defaults:
       author_profile: true
       share: true
       comments: true
+  # _publications2
+  - scope:
+      path: ""
+      type: publications2
+    values:
+      layout: single
+      author_profile: true
+      share: true
+      comments: true
   # _portfolio
   - scope:
       path: ""
