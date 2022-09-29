@@ -1,14 +1,14 @@
 ---
-title: "Numerical characterization of auxetic composite exhibiting multiscale heterogeneity"
+title: "Multiscale analysis of a triaxially woven fabric composite"
 collection: conferences
 permalink: 
-excerpt: 'Numerical characterization and effect of low-velocity impact load on auxetic composite is investigated and compared to the non-auxetic counterpart.'
-venue: 'Indian Institute of Technology Mandi (IIT Mandi), India'
+excerpt: 'A Multiscale analysis of a triaxially braided composite has been done using semi analytical MT homogenization theory and finite element analysis. The effective properties obtained at microscale has been applied to a full scale ultra-lightweight antenna reflector and simulated under realistic thermal loadings.'
+venue: 'Indian Institute of Technology Roorkee (IIT Roorkee), India'
 paperurl: ''
-citation: 'R. R. Madke and R. Chowdhury, “Numerical characterization of auxetic composite exhibiting multiscale heterogeneity,” 7th International Congress on Computational Mechanics and Simulation (ICCMS), Indian Institute of Technology Mandi (IIT Mandi), India, 2019.'
+citation: 'R. R. Madke and R. Chowdhury, “Multiscale analysis of a triaxially woven fabric composite,” International Conference on Advances in Construction Materials and Structures (ACMS-2018), Indian Institute of Technology Mandi (IIT Roorkee), India, 2018.'
 ---
-The proposed approach encourages faster and more cost-effective virtual testing of woven composites to understand their mechanical behavior counting failure and damage initiation at the lower scales.
+The aim of this paper is to predict the thermo-mechanical behaviour of this triaxially woven fabric composite (TWF) composite.
 
 [Download paper here]()
 
-Recommended citation: R. R. Madke and R. Chowdhury, “Numerical characterization of auxetic composite exhibiting multiscale heterogeneity,” 7th International Congress on Computational Mechanics and Simulation (ICCMS), Indian Institute of Technology Mandi (IIT Mandi), India, 2019.
+Recommended citation: R. R. Madke and R. Chowdhury, “Multiscale analysis of a triaxially woven fabric composite,” International Conference on Advances in Construction Materials and Structures (ACMS-2018), Indian Institute of Technology Mandi (IIT Roorkee), India, 2018.
