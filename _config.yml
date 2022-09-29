@@ -227,10 +227,10 @@ defaults:
       author_profile: true
       share: true
       comments: true
-  # _publications2
+  # _Conferences
   - scope:
       path: ""
-      type: publications2
+      type: publications
     values:
       layout: single
       author_profile: true
