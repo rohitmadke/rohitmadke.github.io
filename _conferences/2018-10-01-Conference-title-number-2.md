@@ -1,6 +1,6 @@
 ---
 title: "Numerical characterization of auxetic composite exhibiting multiscale heterogeneity"
-collection: publications
+collection: conferences
 permalink: 
 excerpt: 'Numerical characterization and effect of low-velocity impact load on auxetic composite is investigated and compared to the non-auxetic counterpart.'
 venue: 'Indian Institute of Technology Mandi (IIT Mandi), India'
