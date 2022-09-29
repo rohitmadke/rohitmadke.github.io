@@ -230,7 +230,7 @@ defaults:
       author_profile: true
       share: true
       comments: true
-  # _Conferences
+  # _conferences
   - scope:
       path: ""
       type: conferences
