@@ -1,14 +1,14 @@
 ---
-title: "Numerical characterization of auxetic composite exhibiting multiscale heterogeneity"
+title: "Numerical scheme for the prediction of elastic properties of textile composite"
 collection: conferences
 permalink: 
-excerpt: 'Numerical characterization and effect of low-velocity impact load on auxetic composite is investigated and compared to the non-auxetic counterpart.'
-venue: 'Indian Institute of Technology Mandi (IIT Mandi), India'
+excerpt: 'In this paper, we developed a systematic numerical scheme to predict the elastic properties of textile composites. Initially, the representative volume element (RVE) models of carbon fabric composite with different architecture were modelled using TexGen. Secondly, finite element simulations of the developed models have been performed in ABAQUS^{TM} under quasi-static loading and periodic boundary conditions.'
+venue: 'Indian Institute of Technology Hyderabad (IIT Hyderabad), India'
 paperurl: ''
-citation: 'R. R. Madke and R. Chowdhury, “Numerical characterization of auxetic composite exhibiting multiscale heterogeneity,” 7th International Congress on Computational Mechanics and Simulation (ICCMS), Indian Institute of Technology Mandi (IIT Mandi), India, 2019.'
+citation: 'R. R. Madke and R. Chowdhury, “Numerical scheme for the prediction of elastic properties of textile composite,” International Conference on Composite Materials and Structures (ICCMS 2017), Indian Institute of Technology Hyderabad (IIT Hyderabad), India, 2017.'
 ---
-The proposed approach encourages faster and more cost-effective virtual testing of woven composites to understand their mechanical behavior counting failure and damage initiation at the lower scales.
+Finite element analysis, mechanics of structure genome and Mori-Tanaka mean-field homogenization are the three efficient approaches proposed for predicting the effective properties of multiple types of textile composite.
 
 [Download paper here]()
 
-Recommended citation: R. R. Madke and R. Chowdhury, “Numerical characterization of auxetic composite exhibiting multiscale heterogeneity,” 7th International Congress on Computational Mechanics and Simulation (ICCMS), Indian Institute of Technology Mandi (IIT Mandi), India, 2019.
+Recommended citation: R. R. Madke and R. Chowdhury, “Numerical scheme for the prediction of elastic properties of textile composite,” International Conference on Composite Materials and Structures (ICCMS 2017), Indian Institute of Technology Hyderabad (IIT Hyderabad), India, 2017.
