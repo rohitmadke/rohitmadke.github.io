@@ -181,6 +181,9 @@ collections:
   publications:
     output: true
     permalink: /:collection/:path/
+  conferences:
+    output: true
+    permalink: /:collection/:path/
   portfolio:
     output: true
     permalink: /:collection/:path/
@@ -230,7 +233,7 @@ defaults:
   # _Conferences
   - scope:
       path: ""
-      type: publications
+      type: conferences
     values:
       layout: single
       author_profile: true
