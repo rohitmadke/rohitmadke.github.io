@@ -1,14 +1,13 @@
 ---
-title: "Teaching experience 1"
+title: "CEN-102 Solid Mechanics"
 collection: teaching
 type: "Undergraduate course"
 permalink: /teaching/2014-spring-teaching-1
-venue: "University 1, Department"
-date: 2014-01-01
-location: "City, Country"
+venue: "Indian Institute of Technology Roorkee, Civil Engineering Department"
+date: Autumn 2021
+location: "Roorkee, India"
 ---
-
-This is a description of a teaching experience. You can use markdown like any other post.
+During my academic journey, I had the privilege of serving as a Teaching Assistant in the Department of Civil Engineering. This role allowed me to engage deeply with students and enhance my understanding of various subjects through teaching. As a Teaching Assistant, my responsibilities included grading tests, proctoring tutorials, and overseeing lab sessions.
 
 Heading 1
 ======
