@@ -17,7 +17,12 @@ Education
 
 Work experience
 ======
-* Senior Research Fellow [10/11/2020 – Present]
+* Postdoctoral Research Scholar [23/04/2023 – present]
+  * San Diego State University, California (USA)
+  * Duties included: Develop multi-fidelity analysis tools for bolted joints in CFRP/steel hybrid composite structures, Progressive damage analysis of composite under static and fatigue loading, Developing Python scripts and user material subroutines UMAT/VUMAT for constitutive material models in FE
+ package Abaqus
+  * Supervisor: Prof. Satchi Venkataraman
+* Senior Research Fellow [10/11/2020 – 31/03/2023]
   * Indian Institute of Technology Roorkee (India)
   * Duties included: Design and analysis of a heat-resistant meta-sandwich structure utilizing auxetic metamaterials and composites for the project titled “Fracture and fatigue analysis of auxetic composite” funded by the Indian Space Research Organisation (ISRO) - Government of India. Fracture analyses are performed using XFEM with ABAQUS and phase-field with COMSOL Multiphysics.
   * Principal Investigator: Prof. Anupam Chakrabarti (PI) and Prof. Rajib Chowdhury (Co-PI)
