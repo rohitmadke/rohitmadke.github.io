@@ -11,9 +11,9 @@ redirect_from:
 
 Education
 ======
-* Bachelor of Engineering (B.E.) in Civil Engineering, Yeshwantrao Chavan College of Engineering (YCCE), Nagpur University, India, 2011
-* Master of Technology (M.Tech.) in Civil Engineering, Building Technology (Structural Engineering Group), Indian Institute of Technology Roorkee, India, 2014
 * Ph.D. in Civil Engineering (Structural Engineering), Indian Institute of Technology Roorkee, India, 2022
+* Master of Technology (M.Tech.) in Civil Engineering, Building Technology (Structural Engineering Group), Indian Institute of Technology Roorkee, India, 2014
+* Bachelor of Engineering (B.E.) in Civil Engineering, Yeshwantrao Chavan College of Engineering (YCCE), Nagpur University, India, 2011
 
 Work experience
 ======
@@ -22,6 +22,7 @@ Work experience
   * Duties included: Develop multi-fidelity analysis tools for bolted joints in CFRP/steel hybrid composite structures, Progressive damage analysis of composite under static and fatigue loading, Developing Python scripts and user material subroutines UMAT/VUMAT for constitutive material models in FE
  package Abaqus
   * Supervisor: Prof. Satchi Venkataraman
+
 * Senior Research Fellow [10/11/2020 – 31/03/2023]
   * Indian Institute of Technology Roorkee (India)
   * Duties included: Design and analysis of a heat-resistant meta-sandwich structure utilizing auxetic metamaterials and composites for the project titled “Fracture and fatigue analysis of auxetic composite” funded by the Indian Space Research Organisation (ISRO) - Government of India. Fracture analyses are performed using XFEM with ABAQUS and phase-field with COMSOL Multiphysics.
@@ -64,3 +65,7 @@ Teaching
   <ul>{% for post in site.teaching %}
     {% include archive-single-cv.html %}
   {% endfor %}</ul>
+  
+Service and leadership
+======
+* Currently signed in to 43 different slack teams
