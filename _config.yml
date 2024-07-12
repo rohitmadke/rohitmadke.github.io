@@ -10,7 +10,7 @@ locale                   : "en-US"
 title                    : "Rohit Raju Madke"
 title_separator          : "-"
 name                     : &name "Rohit Raju Madke"
-description              : &description "Senior Researcher, Indian Institute of Technology Roorkee, India"
+description              : &description "Postdoctoral Research Scholar, San Diego State University (USA)"
 url                      : https://rohitmadke.github.io/ # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "rohitmadke/rohitmadke.github.io"
@@ -82,7 +82,7 @@ analytics:
 author:
   name             : "Rohit Raju Madke"
   avatar           : "profile.png"
-  bio              : "Researcher at Indian Institute of Technology Roorkee"
+  bio              : "Postdoctoral Research Scholar, San Diego State University (USA)"
   location         : "Indian Institute of Technology Roorkee"
   employer         :
   pubmed           : "https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
