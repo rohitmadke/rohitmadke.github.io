@@ -17,7 +17,7 @@ Education
 
 Work experience
 ======
-* Postdoctoral Research Scholar [23/04/2023 – present]
+* Postdoctoral Research Scholar [23/04/2023 – 30/09/2024]
   * San Diego State University, California (USA)
   * Duties included: Develop multi-fidelity analysis tools for bolted joints in CFRP/steel hybrid composite structures, Progressive damage analysis of composite under static and fatigue loading, Developing Python scripts and user material subroutines UMAT/VUMAT for constitutive material models in FE
  package Abaqus
