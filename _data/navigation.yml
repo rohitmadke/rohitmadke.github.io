@@ -1,25 +1,19 @@
-# main links links
+# Primary navigation. The site title links to the homepage.
+# Research and Contact link to sections on the updated homepage.
 main:
-  - title: "Publications"
-    url: /publications/
+  - title: "Research"
+    url: "/#research"
 
-  - title: "Conferences"
-    url: /conferences/
-    
-  - title: "Talks"
-    url: /talks/    
+  - title: "Publications"
+    url: "/publications/"
 
   - title: "Teaching"
-    url: /teaching/    
-    
-  - title: "Ph.D. Thesis"
-    url: /phdthesis/
-        
-  - title: "Blog Posts"
-    url: /year-archive/
-    
+    url: "/teaching/"
+
   - title: "CV"
-    url: /cv/
-    
-#  - title: "Guide"
-#    url: /markdown/
+    url: "/cv/"
+
+  - title: "Contact"
+    url: "/#contact"
+
+# Conference contributions and talks remain accessible from Publications and CV.
