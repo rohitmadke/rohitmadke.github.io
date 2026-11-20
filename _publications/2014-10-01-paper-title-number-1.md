@@ -1,14 +1,35 @@
 ---
-title: "Multiscale approach for the nonlinear behavior of cementitious composite"
+# Keep original filenames when replacing existing records; they are identifiers,
+# not authoritative publication dates. Use publication_date and date_precision.
+# The publisher specifies no exact day, so no full date is asserted here.
+title: Multiscale approach for the nonlinear behavior of cementitious composite
 collection: publications
-permalink: https://www.sciencedirect.com/science/article/pii/S0927025614004376
-excerpt: 'This paper introduces a multiscale modeling approach to simulate the macromechanical properties of cementitious composites with polyurethane reinforcement.'
-venue: 'Computational Materials Science'
-paperurl: 'https://doi.org/10.1016/j.commatsci.2014.06.026'
-citation: 'R. R. Madke, S. Chakraborty, and R. Chowdhury, ‘Multiscale approach for the nonlinear behavior of cementitious composite’, Comput Mater Sci, vol. 93, no. 2014, pp. 29–35, 2014, doi: 10.1016/j.commatsci.2014.06.026.'
+layout: single
+permalink: /publication/2014-nonlinear-cementitious-composite/
+authors:
+- Rohit Raju Madke
+- Souvik Chakraborty
+- Rajib Chowdhury
+year: 2014
+publication_date: October 2014
+date_precision: month
+venue: Computational Materials Science
+volume: '93'
+pages: 29–35
+doi: 10.1016/j.commatsci.2014.06.026
+paperurl: https://doi.org/10.1016/j.commatsci.2014.06.026
+citation: R. R. Madke, S. Chakraborty, and R. Chowdhury (2014). Multiscale approach for the nonlinear behavior of
+  cementitious composite. Computational Materials Science, 93, 29–35.
+excerpt: A multiscale model combines mean-field homogenisation and finite element analysis to study polyurethane-reinforced
+  cementitious composites. It examines how inclusion content, shape and orientation influence stiffness and nonlinear
+  stress–strain response, with comparisons against published results.
+last_modified_at: '2026-11-20'
 ---
-Simulations of the real phenomenon that occur at the micro level of the composite have been done by mean-field homogenization technique and finite element analysis. 
 
-[Download paper here](https://doi.org/10.1016/j.commatsci.2014.06.026)
+## Research summary
 
-Recommended citation: R. R. Madke, S. Chakraborty, and R. Chowdhury, ‘Multiscale approach for the nonlinear behavior of cementitious composite’, Comput Mater Sci, vol. 93, no. 2014, pp. 29–35, 2014, doi: 10.1016/j.commatsci.2014.06.026.
+{{ page.excerpt }}
+
+**Journal issue:** {{ page.publication_date }}.
+
+[View article / DOI]({{ page.paperurl }}) &nbsp; | &nbsp; [All publications]({{ '/publications/' | relative_url }})
