@@ -10,8 +10,8 @@ locale                   : "en-US"
 title                    : "Rohit Raju Madke"
 title_separator          : "-"
 name                     : &name "Rohit Raju Madke"
-description              : &description "Postdoctoral Research Associate, LBA, Aix Marseille University, France"
-url                      : https://rohitmadke.github.io/ # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
+description              : &description "Computational mechanics researcher specialising in nonlinear finite element modelling, medical textiles, mechanical metamaterials and impact protection."
+url                      : "https://rohitmadke.github.io" # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "rohitmadke/rohitmadke.github.io"
 teaser                   :  # filename of teaser fallback teaser image placed in /images/, .e.g. "500x300.png"
@@ -66,9 +66,12 @@ og_image                 :  # Open Graph/Twitter default site image
 # For specifying social profiles
 # - https://developers.google.com/structured-data/customize/social-profiles
 social:
-  type                   : # Person or Organization (defaults to Person)
-  name                   : # If the user or organization name differs from the site's name
+  type                   : "Person" # Person or Organization (defaults to Person)
+  name                   : *name # If the user or organization name differs from the site's name
   links: # An array of links to social media profiles
+    - "https://www.linkedin.com/in/rohit-raju-madke-phd-a1aa4251/"
+    - "https://scholar.google.com/citations?user=QmkU4OgAAAAJ&hl=en"
+    - "https://github.com/rohitmadke"
 
 
 # Analytics
@@ -82,10 +85,10 @@ analytics:
 author:
   name             : "Rohit Raju Madke"
   avatar           : "profile.png"
-  bio              : "Postdoctoral Research Associate, LBA, Aix Marseille University, France"
-  location         : "Indian Institute of Technology Roorkee (India)"
+  bio              : "Postdoctoral Researcher, LBA, Aix-Marseille University"
+  location         : "Marseille, France"
   employer         :
-  pubmed           : "https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
+  pubmed           :
   googlescholar    : "https://scholar.google.com/citations?user=QmkU4OgAAAAJ&hl=en"
   email            : "rvmadkey@gmail.com"
   researchgate     :  "https://www.researchgate.net/profile/Rohit-Madke" # example: "https://www.researchgate.net/profile/yourprofile"
@@ -96,7 +99,7 @@ author:
   flickr           :
   facebook         :
   foursquare       :
-  github           : "rohitmadke.github.io"
+  github           : "rohitmadke"
   google_plus      :
   keybase          :
   instagram        :
@@ -267,7 +270,7 @@ sass:
 permalink: /:categories/:title/
 # paginate: 5 # amount of posts to show
 # paginate_path: /page:num/
-timezone: America/Los_Angeles # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
+timezone: Europe/Paris # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 
 
 # Plugins
