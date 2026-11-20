@@ -1,12 +1,119 @@
 ---
-layout: archive
-title: "Teaching"
+layout: single
+title: "Teaching and Supervision"
 permalink: /teaching/
+excerpt: "Teaching assistantships, postgraduate research supervision and technical training by Rohit Raju Madke in computational and structural mechanics."
 author_profile: true
+last_modified_at: "2026-11-20"
+# Verified academic periods for older records whose filenames and date fields
+# do not consistently identify the teaching period. New course records can
+# provide academic_period directly in their own front matter.
+teaching_periods:
+  2021-spring-teaching-2.md: "2021–2022"
+  2021-spring-teaching-1.md: "2021"
+  2018-autumn-teaching-2.md: "2017–2018"
+  2017-spring-teaching-1.md: "2017"
+  2018-autumn-teaching-1.md: "2016–2017"
 ---
 
-{% include base_path %}
+<p>
+  My teaching and supervision cover finite element methods, structural mechanics
+  and computational modelling of textiles and protective systems. I have supported
+  undergraduate and postgraduate teaching at the Indian Institute of Technology
+  Roorkee and supervise research at Aix-Marseille University.
+</p>
 
-{% for post in site.teaching reversed %}
-  {% include archive-single.html %}
-{% endfor %}
+<h2 id="research-supervision">Research supervision</h2>
+
+<p>
+  At the Laboratory of Applied Biomechanics (LBA), Aix-Marseille University, I
+  supervise postgraduate research within the MICH Chair <em>Innovative Materials
+  for the Human Body</em>, led by Prof. Frédéric Turquier.
+</p>
+
+<h3>Doctoral co-supervision</h3>
+
+<p>
+  I co-supervise doctoral research on in-situ strain measurement in protective
+  helmets with Prof. Frédéric Turquier.
+</p>
+
+<h3>Master's research supervision</h3>
+
+<p>Research topics include:</p>
+
+<ul>
+  <li>Yarn-level finite element modelling of knitted medical textiles.</li>
+  <li>Experimental textile characterisation and measurement of pore deformation.</li>
+  <li>Fibre-optic helmet modelling and strain sensing.</li>
+</ul>
+
+<p>
+  My supervisory work includes reviewing modelling assumptions, numerical methods
+  and the interpretation of results with students.
+</p>
+
+<h2 id="teaching-assistantships">Teaching assistantships</h2>
+
+<p>
+  <strong>Indian Institute of Technology Roorkee, India</strong><br>
+  Department of Civil Engineering
+</p>
+
+{% if site.teaching.size > 0 %}
+<table>
+  <thead>
+    <tr>
+      <th scope="col">Course</th>
+      <th scope="col">Level</th>
+      <th scope="col">Period</th>
+    </tr>
+  </thead>
+  <tbody>
+  {% for course in site.teaching reversed %}
+    {% assign record_file = course.path | split: '/' | last %}
+    {% assign legacy_period = page.teaching_periods[record_file] %}
+    {% assign teaching_period = course.academic_period | default: legacy_period %}
+    <tr>
+      <th scope="row"><a href="{{ course.url | relative_url }}">{{ course.title | escape }}</a></th>
+      <td>{{ course.type | default: 'Course' | remove: ' course' | escape }}</td>
+      <td>{% if teaching_period and teaching_period != '' %}{{ teaching_period | escape }}{% elsif course.date %}{{ course.date | date: '%Y' }}{% else %}See course record{% endif %}</td>
+    </tr>
+  {% endfor %}
+  </tbody>
+</table>
+{% else %}
+<p>Course details are available in my <a href="{{ '/cv/' | relative_url }}">CV</a>.</p>
+{% endif %}
+
+<p>
+  Responsibilities included tutorial and laboratory support, grading tests and
+  assessment support. For the Finite Element Method course, I also supported
+  students using MATLAB and Abaqus. The Theory of Structures course was offered
+  to undergraduate students in Architecture and Planning.
+</p>
+
+<h2 id="technical-training">Technical training</h2>
+
+<h3>Metamaterial Design and Analysis using ANSYS Mechanical and HFSS</h3>
+
+<p>
+  <strong>11 December 2020 — Speaker and demonstration contributor</strong><br>
+  Online TEQIP faculty development programme
+</p>
+
+<p>
+  Contributed to a demonstration and training workshop within the programme
+  <em>Multifunctional characteristics of advanced materials for defence
+  applications</em>.
+</p>
+
+<p><a href="{{ '/talks/' | relative_url }}">Talks and workshops</a></p>
+
+<p>
+  <a class="btn btn--primary" href="{{ '/cv/' | relative_url }}">CV</a>
+  <a class="btn btn--inverse" href="{{ '/publications/' | relative_url }}">Publications</a>
+  <a class="btn btn--inverse" href="{{ '/#contact' | relative_url }}">Contact</a>
+</p>
+
+<p><em>Last reviewed: {{ page.last_modified_at | date: '%B %Y' }}.</em></p>
