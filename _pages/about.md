@@ -1,28 +1,73 @@
 ---
+layout: single
 permalink: /
-title: "About me"
-excerpt: "About me"
+title: "Computational Mechanics"
+excerpt: "Rohit Raju Madke studies medical textiles, mechanical metamaterials and impact protection using nonlinear finite element and multiscale modelling."
 author_profile: true
-redirect_from: 
+redirect_from:
   - /about/
   - /about.html
+last_modified_at: "2026-11-20"
 ---
 
-**Introduction**\
-Welcome to the professional website of Rohit Raju Madke, experienced researcher with a Ph.D. in Civil (Structural) Engineering, specializing in applied mechanics and the finite element method, focusing on composites, auxetics and negative stiffness metamaterials. Skilled in dynamic impact analysis, fracture mechanics, and nonlinear FEA using ABAQUS, COMSOL and ANSYS Mechanical. Recently completed a postdoctoral role at San Diego State University, working on modelling of static and fatigue failure of highly non-linear composite bolted joints in aerospace composite structures. Now seeking new opportunities to apply my expertise in solving aerospace and defence challenges.
+I am a postdoctoral researcher at the **Laboratory of Applied Biomechanics (LBA), Aix-Marseille University, France**, within the MICH Chair *Innovative Materials for the Human Body*. I develop computational models of textiles, composites and cellular materials for biomedical applications and impact protection.
 
-**Academic Background**\
-Rohit holds a Ph.D. in Civil Engineering from the prestigious Indian Institute of Technology Roorkee, India. His doctoral research focused on groundbreaking topics in structural mechanics and materials engineering, particularly composite materials. Rohit's Ph.D. thesis proposed innovative configurations of braided metacomposites, incorporating 3D auxetic metamaterials and dual-negative metamaterials (auxetic and negative stiffness). His research utilized advanced simulation tools such as ANSYS® Mechanical, ACP, Autodyn, and LS-Dyna to predict the dynamic behavior of these metacomposites. He also used various meshing techniques and additive manufacturing methods, including 3D printing and investment casting, to fabricate micro-level periodic aluminum cellular structures.
+<p>
+  <a class="btn btn--primary" href="{{ '/publications/' | relative_url }}">Publications</a>
+  <a class="btn btn--inverse" href="{{ '/cv/' | relative_url }}">CV</a>
+  <a class="btn btn--inverse" href="#contact">Contact</a>
+</p>
 
-**Professional Experience**\
-Following his Ph.D., Rohit worked as a Senior Research Fellow at the Department of Civil Engineering, Indian Institute of Technology Roorkee. During this tenure, he focused on designing heat-resistant meta-sandwich structures for an ISRO-funded project. This work involved the use of graphite auxetic metamaterials and carbon-carbon semi-auxetic textile composites. Rohit executed simulations on fracture, crack initiation, and propagation, including fatigue introspections, using multiscale finite element analysis and XFEM in ABAQUS™, as well as phase-field methods in COMSOL® Multiphysics and FEniCS.
+## Research
 
-At San Diego State University, Rohit has been an integral part of the Aerospace Composite Structural Mechanics Lab. His work here includes multiscale and multi-fidelity modeling and analyzing composite bolted joints in fiber metal laminates (FML). Collaborating with industry partners, he has investigated the continuum damage-based static and fatigue behavior of CFRP composites and integrated the kinetic theory of fracture-based fatigue methods into FML analysis. Rohit has also developed Python scripts and user material subroutines (UMAT/VUMAT) for constitutive material models in ABAQUS™.
+### Medical textiles
 
-**Contact Information**\
-Name: Rohit Raju Madke, Ph.D.\
-Position: Postdoctoral Research Scholar\
-Location: Computational Mechanics Lab., 301-B, Civil Engineering Department, IIT Roorkee, Uttarakhand- 247667, India\
-Email: rvmadkey@gmail.com, rmadke@ce.iitr.ac.in
+I develop yarn-scale finite element models of knitted medical textiles, accounting for large deformation and frictional contact. I compare the predicted mechanical response and pore deformation with experimental measurements, and connect yarn-scale behaviour with homogenised fabric models for pelvic organ prolapse repair.
 
+### Helmet impact protection
 
+I use LS-DYNA to investigate textile reinforcement in protective helmets under normal and oblique impacts. This work examines energy absorption and linear and angular head acceleration, with the aim of understanding how the reinforcement changes the protective response.
+
+### Mechanical metamaterials and metacomposites
+
+My doctoral research examined braided metacomposites, auxetic and dual-negative architectures, and ballistic-impact behaviour of multilayered body-armour concepts. My later postdoctoral work at the Indian Institute of Technology Roorkee included topology optimisation using LS-TaSC and the study of cellular materials for energy absorption.
+
+### E-textiles and sensing
+
+I contribute to mechanical and optical modelling studies of textiles incorporating fibre Bragg grating sensors. The work examines deformation, strain transfer and sensing requirements for protective and biomedical applications.
+
+## Background
+
+I received my PhD in **Civil Engineering, specialising in Structural Engineering**, from the **Indian Institute of Technology Roorkee** in 2022. Before joining Aix-Marseille University in September 2025, I held research appointments at the Indian Institute of Technology Roorkee (2024-2025) and San Diego State University, USA (2023-2024). These appointments covered architected materials and the static and fatigue behaviour of aerospace composite joints.
+
+## Teaching and supervision
+
+At the Indian Institute of Technology Roorkee, I supported teaching in finite element methods, structural dynamics and solid mechanics. At LBA, I supervise master's research and co-supervise doctoral work on strain measurement in protective helmets. [Teaching details]({{ '/teaching/' | relative_url }}).
+
+## Methods and software
+
+Nonlinear finite element analysis, multiscale modelling, homogenisation, contact, impact and material failure. My software experience includes **LS-DYNA, Abaqus, Ansys Mechanical, ACP, Autodyn, COMSOL and LS-TaSC**, supported by Python, MATLAB and Fortran UMAT/VUMAT development.
+
+## Selected publications
+
+{% comment %}Publication filenames follow YYYY-MM-DD-title.md.{% endcomment %}
+{% assign selected_publications = site.publications | sort: 'path' | reverse %}
+<ul>
+{% for publication in selected_publications limit:3 %}
+  {% assign publication_filename = publication.path | split: '/' | last %}
+  <li>
+    <a href="{{ publication.paperurl | escape }}">{{ publication.title | escape }}</a><br>
+    <small><em>{{ publication.venue | escape }}</em>, {{ publication_filename | slice: 0, 4 }}.</small>
+  </li>
+{% endfor %}
+</ul>
+
+[View all publications]({{ '/publications/' | relative_url }}).
+
+## Contact
+
+Laboratory of Applied Biomechanics, Aix-Marseille University, Marseille, France.
+
+[Email](mailto:{{ site.author.email }}) &nbsp; | &nbsp; [LinkedIn](https://www.linkedin.com/in/rohit-raju-madke-phd-a1aa4251/) &nbsp; | &nbsp; [Google Scholar](https://scholar.google.com/citations?user=QmkU4OgAAAAJ&hl=en)
+
+*Last reviewed: {{ page.last_modified_at | date: '%B %Y' }}.*
