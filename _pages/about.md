@@ -7,7 +7,7 @@ author_profile: true
 redirect_from:
   - /about/
   - /about.html
-last_modified_at: "2026-11-20"
+last_modified_at: "2026-11-21"
 ---
 
 I am a postdoctoral researcher at the **Laboratory of Applied Biomechanics (LBA), Aix-Marseille University, France**, within the MICH Chair *Innovative Materials for the Human Body*. I develop computational models of textiles, composites and cellular materials for biomedical applications and impact protection.
@@ -16,6 +16,7 @@ I am a postdoctoral researcher at the **Laboratory of Applied Biomechanics (LBA)
   <a class="btn btn--primary" href="{{ '/publications/' | relative_url }}">Publications</a>
   <a class="btn btn--inverse" href="{{ '/cv/' | relative_url }}">CV</a>
   <a class="btn btn--inverse" href="#contact">Contact</a>
+  <a class="btn btn--inverse" href="#phd-research-poster">PhD poster</a>
 </p>
 
 ## Research
@@ -35,6 +36,21 @@ My doctoral research examined braided metacomposites, auxetic and dual-negative 
 ### E-textiles and sensing
 
 I contribute to mechanical and optical modelling studies of textiles incorporating fibre Bragg grating sensors. The work examines deformation, strain transfer and sensing requirements for protective and biomedical applications.
+
+## PhD research poster
+
+My doctoral research at the Indian Institute of Technology Roorkee examined multiscale modelling of braided composites, auxetic and dual-negative mechanical metamaterials, and the impact response of metacomposite sandwich structures.
+
+<figure>
+  <a href="{{ '/images/phdposter.pdf' | relative_url }}" aria-label="Open the complete PhD research poster as a PDF">
+    <img src="{{ '/images/500x300.png' | relative_url }}" alt="Full PhD research poster showing braided composite multiscale models, auxetic and dual-negative metamaterials, sandwich structures and impact simulations." width="4800" height="3600" loading="lazy" decoding="async">
+  </a>
+  <figcaption><em>Multiscale Modelling and Failure Prediction of Braided Metacomposite</em> — doctoral research at the Indian Institute of Technology Roorkee. Select the poster to open the full PDF.</figcaption>
+</figure>
+
+<p>
+  <a class="btn btn--primary" href="{{ '/images/phdposter.pdf' | relative_url }}">Open full poster (PDF)</a>
+</p>
 
 ## Background
 
