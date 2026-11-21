@@ -1,16 +1,107 @@
 ---
-layout: archive
-title: "Talks and presentations"
+layout: single
+title: "Talks and Workshops"
 permalink: /talks/
+excerpt: "Conference presentations, technical training and research seminars by Rohit Raju Madke on textiles, metamaterials and multiscale mechanics."
 author_profile: true
+last_modified_at: "2026-11-21"
 ---
 
-{% if site.talkmap_link == true %}
+<p>
+  My presentations and training contributions cover medical textiles,
+  metamaterials, composite mechanics and multiscale modelling. Selected conference
+  presentations are listed below, followed by technical training and earlier
+  research seminars.
+</p>
 
-<p style="text-decoration:underline;"><a href="/talkmap.html">See a map of all the places I've given a talk!</a></p>
+<h2 id="selected-presentations">Selected conference presentations</h2>
 
-{% endif %}
+<h3>Multiphysics Modelling of Embedded Fibre-Optic Strain Sensor in Knitted Textile Structure for Safety and Health Applications</h3>
 
-{% for post in site.talks reversed %}
-  {% include archive-single-talk.html %}
+<p>
+  <strong>E-Textiles 2026 — Accepted poster P40</strong><br>
+  Pilsen, Czech Republic &middot; 24–26 November 2026
+</p>
+
+<p>
+  Co-authored contribution on the modelling of fibre-optic sensing within knitted
+  textiles for protective and biomedical applications.
+</p>
+
+<p><a href="https://e-textilesconference.com/">Conference website</a></p>
+
+<h3>Multiscale Mechanical Modelling of Medical Textile for Female Pelvic Organ Repair</h3>
+
+<p>
+  <strong>WCCM–ECCOMAS 2026 — Oral presentation</strong><br>
+  Munich, Germany &middot; 19–24 July 2026
+</p>
+
+<p>
+  Presented research on the mechanical characterisation and multiscale modelling
+  of knitted medical textiles for pelvic organ prolapse repair.
+</p>
+
+<p><a href="https://wccm-eccomas2026.org/">Congress website</a></p>
+
+<p>
+  Conference papers and other co-authored contributions are listed on the
+  <a href="{{ '/conferences/' | relative_url }}">conference page</a>.
+</p>
+
+<h2 id="technical-training">Technical training</h2>
+
+{% for talk in site.talks reversed %}
+  {% assign talk_title_lower = talk.title | downcase %}
+  {% assign talk_type_lower = talk.type | downcase %}
+  {% if talk_title_lower contains 'workshop' or talk_title_lower contains 'training' or talk_type_lower contains 'short term course' %}
+    {% assign record_file = talk.path | split: '/' | last %}
+    {% if record_file == '2020-12-11-talk-6.md' %}
+<h3>Metamaterial Design and Analysis using ANSYS Mechanical and HFSS</h3>
+
+<p>
+  <strong>11 December 2020 — Speaker and demonstration contributor</strong><br>
+  Online TEQIP faculty development programme
+</p>
+
+<p>
+  Contributed to a demonstration and training workshop within the programme
+  <em>Multifunctional characteristics of advanced materials for defence
+  applications</em>.
+</p>
+    {% else %}
+<h3>{{ talk.title | replace: 'Mechnaical', 'Mechanical' | escape }}</h3>
+<p>{% if talk.date %}{{ talk.date | date: '%Y' }}{% endif %}{% if talk.type %} &middot; {{ talk.type | escape }}{% endif %}{% if talk.venue %}<br>{{ talk.venue | escape }}{% endif %}</p>
+    {% endif %}
+  {% endif %}
 {% endfor %}
+
+<h2 id="research-seminars">Research seminars and proposals</h2>
+
+{% comment %}
+Use record titles, types and venues without rendering raw excerpts, which may
+contain legacy placeholder links. Show years rather than unsupported exact days.
+Conference contributions are maintained separately in _conferences.
+{% endcomment %}
+<ul>
+{% for talk in site.talks reversed %}
+  {% assign talk_title_lower = talk.title | downcase %}
+  {% assign talk_type_lower = talk.type | downcase %}
+  {% unless talk_title_lower contains 'workshop' or talk_title_lower contains 'training' or talk_type_lower contains 'short term course' %}
+  <li>
+    <p>
+      {% if talk.date %}<strong>{{ talk.date | date: '%Y' }}.</strong> {% endif %}{{ talk.title | escape }}
+      {% if talk.type or talk.venue %}<br><small>{% if talk.type %}{{ talk.type | escape }}{% endif %}{% if talk.type and talk.venue %} &middot; {% endif %}{% if talk.venue %}{{ talk.venue | escape }}{% endif %}</small>{% endif %}
+    </p>
+  </li>
+  {% endunless %}
+{% endfor %}
+</ul>
+
+<p>
+  <a class="btn btn--primary" href="{{ '/conferences/' | relative_url }}">Conference contributions</a>
+  <a class="btn btn--inverse" href="{{ '/teaching/' | relative_url }}">Teaching and supervision</a>
+  <a class="btn btn--inverse" href="{{ '/#contact' | relative_url }}">Contact</a>
+</p>
+
+<p><em>Last reviewed: {{ page.last_modified_at | date: '%B %Y' }}.</em></p>
